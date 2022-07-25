@@ -1,0 +1,39 @@
+header{
+  background:  url(../01.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 480px;
+  width: 100%
+}
+
+.head_container{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1{
+  font-size: 18px;
+}
+
+header ul{
+  list-style-type: none;
+}
+
+header ul li{
+  display: inline-block;
+}
+
+nav ul{
+  list-style-type: none;
+  text-align: center;
+}
+nav li{
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  border-left: 1px dotted black
+}
+.last_child{
+  border-right: 1px dotted black
+}
